@@ -1,10 +1,12 @@
-print("hello world")
-print(1+2)
-print("멋쟁이사자처럼")
-number =2
-print(number+1)
-leader = "강예빈"
-print("우리반 반장 이름은",leader)
-number1 = input("첫번째 숫자를 입력하세요 :")
-number2 = input("두번째 숫자를 입력하세요 :")
-print(number1+number2)
+# 5000이상 : 아웃백 / 3000이상 : 학식 / 1000이상 : 컵라면 / ㅠㅠ : 공기밥
+
+money = int(input("돈 얼마 있어?"))
+
+if(money>=5000):
+    print("아웃백 가자~")
+elif(money>=3000):
+    print("학식 먹어야겠네")
+elif(money>=1000):
+    print("컵라면 먹자")
+else:
+    print("공기밥가즈ㅡㅏ아아아")
