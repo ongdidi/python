@@ -1,4 +1,1 @@
-# python
-# python
-# python
-# python
+how to use python
